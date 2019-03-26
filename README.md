@@ -27,6 +27,10 @@
 
 ## 4. How to upload sketches to the module
 
+1. At the top left, click the arrow pointing right.
+
+<img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/UploadButton.png?raw=true">
+
 # Tutorials and Examples
 
 ## Blank Arduino Sketch
