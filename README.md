@@ -7,6 +7,7 @@
 ## 1. How to install the Arduino IDE and configure to the proper settings
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
 2. Download the IDE
+<img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/IDEDownload.png?raw=true">
 3. Open the IDE
 
 ## 2. How to add ESP8266 library to the IDE
