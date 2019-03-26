@@ -23,7 +23,7 @@
 5. Install the latest version of the library
 6. Click on Tools > Boards > NodeMCU 1.0...
 
-## 3. If there is extra plugin need and where to download the plugin
+## 3. If there is extra plugin needed and where to download the plugin
 
 ## 4. How to upload sketches to the module
 
