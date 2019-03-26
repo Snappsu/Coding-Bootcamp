@@ -58,4 +58,4 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
-[[Sketch File](https://github.com/Snappsu/Coding-Bootcamp/blob/master/sketches/BlinkingLightSketch.ino)] [[Raw Text](https://raw.githubusercontent.com/Snappsu/Coding-Bootcamp/master/sketches/BlinkingLightSketch)]
+[[Sketch File](https://github.com/Snappsu/Coding-Bootcamp/blob/master/sketches/BlinkingLightSketch.ino)] [[Raw Text](https://raw.githubusercontent.com/Snappsu/Coding-Bootcamp/master/sketches/BlinkingLightSketch.ino)]
