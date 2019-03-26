@@ -30,7 +30,7 @@
 # Tutorials and Examples
 
 ## Blank Arduino Sketch
-```
+```ino
 void setup() {
   // put your setup code here, to run once:
 
@@ -42,7 +42,8 @@ void loop() {
 ```
 
 ## Blinking Light
-```
+
+```ino
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -57,3 +58,4 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+[Sketch File](https://github.com/Snappsu/Coding-Bootcamp/blob/master/sketches/BlinkingLightSketch.ino) [Raw Text](https://raw.githubusercontent.com/Snappsu/Coding-Bootcamp/master/sketches/BlinkingLightSketch)
