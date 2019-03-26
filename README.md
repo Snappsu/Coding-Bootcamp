@@ -20,3 +20,13 @@
 ## 3. If there is extra plugin need and where to download the plugin
 
 ## 4. How to upload sketches to the module
+```
+void setup() {
+  // put your setup code here, to run once:
+
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+```
