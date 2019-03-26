@@ -1,8 +1,4 @@
-## Document Outline
-1. How to install the Arduino IDE and configure to the proper settings
-2. How to add ESP8266 library to the IDE
-3. If there is extra plugin need and where to download the plugin
-4. How to upload sketches to the module
+# Arduino IDE and Board Setup
 
 ## 1. How to install the Arduino IDE and configure to the proper settings
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
@@ -30,6 +26,10 @@
 ## 3. If there is extra plugin need and where to download the plugin
 
 ## 4. How to upload sketches to the module
+
+# Tutorials and Examples
+
+## Blank Arduino Sketch
 ```
 void setup() {
   // put your setup code here, to run once:
@@ -38,5 +38,22 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
+}
+```
+
+## Blinking Light
+```
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
 }
 ```
