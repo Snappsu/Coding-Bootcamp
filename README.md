@@ -1,5 +1,8 @@
 # Arduino IDE and Board Setup
 
+<h2 style="color:#f00;">WARNING:</h2>
+In order to complete this guide, you will need administrative powers in order to install the required drivers.
+
 ## 1. How to install the Arduino IDE and configure to the proper settings
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
 2. Download the IDE
