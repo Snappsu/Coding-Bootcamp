@@ -6,7 +6,7 @@ In order to complete this guide, you will need administrative powers in order to
 ## 0. Setting Up The Computer
 1. Install the USB drivers for the NodeMCU
 * For Windows...
-* For OS X, go to [here](https://github.com/Snappsu/Coding-Bootcamp/tree/master/drivers/OSX), then download and install the pkg and dmg. The computer will have to restart at least once. Security may stop drivers from loading, so open System Preferences, click "Security & Privacy", and allow the two drivers to run.
+* For OS X, I have the files hosted [here](https://github.com/Snappsu/Coding-Bootcamp/tree/master/drivers/OSX), then download and install the pkg and dmg. The computer will have to restart at least once. Security may stop drivers from loading, so open System Preferences, click "Security & Privacy", and allow the two drivers to run.
 
 ## 1. Installing the Arduino IDE
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
