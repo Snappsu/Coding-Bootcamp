@@ -1,5 +1,17 @@
-# Arduino IDE and Board Setup
+# Table of Contents
+## [Getting Started](https://snappsu.github.io/Coding-Bootcamp/#Examples)
 
+0. Setting Up The Computer
+1. Installing the Arduino IDE
+2. Adding ESP8266 Library to the IDE
+3. Adding Extra Plugins
+4. Configuring the Upload Settings
+5. Uploading a sketch to the module
+
+## [Examples](https://snappsu.github.io/Coding-Bootcamp/#Examples)
+## [Turorials](https://snappsu.github.io/Coding-Bootcamp/#Tutorials)
+
+# Getting Started
 <h2 style="color: #e22; text-align: center;">WARNING:</h2>
 In order to complete this guide, you will need administrative powers in order to install the required drivers.
 
@@ -16,7 +28,7 @@ In order to complete this guide, you will need administrative powers in order to
 
 3. Open the IDE
 
-## 2. Adding ESP8266 library to the IDE
+## 2. Adding ESP8266 Library to the IDE
 1. Click on File > Preferences
 * On Windows...
 * On OS X, Click on Arduino (at the top), then Preferences
@@ -33,12 +45,12 @@ In order to complete this guide, you will need administrative powers in order to
 
 5. Install the latest version of the library
 
-## 3. Adding extra plugins (where to download them)
+## 3. Adding Extra Plugins (and Where to Download tThem)
 
-## 4. Configuring the upload settings
+## 4. Configuring the Upload Settings
 1. Plug in the NodeMCU in to the PC
 
-### 4.1 Picking the board
+### 4.1 Picking the Board
 1. At the top, click on "Tools"
 2. Hover over "Board: ..."
 3. Select "NodeMCU 1.1 (ESP-12E Module)"
