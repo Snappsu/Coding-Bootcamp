@@ -1,9 +1,14 @@
 # Arduino IDE and Board Setup
 
-<h2 style="color:#f00;">WARNING:</h2>
+<h2 style="color: #e22; text-align: center;">WARNING:</h2>
 In order to complete this guide, you will need administrative powers in order to install the required drivers.
 
-## 1. How to install the Arduino IDE and configure to the proper settings
+## 0. Setting Up The Computer
+1. Install the USB drivers for the NodeMCU
+* For Windows...
+* For OS X, go to [here](https://github.com/Snappsu/Coding-Bootcamp/tree/master/drivers/OSX), then download and install the pkg and dmg. Security may stop drivers from loading, so open System Preferences, click "Security & Privacy", and allow the two drivers to run.
+
+## 1. Installing the Arduino IDE
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
 2. Download the IDE
 
@@ -11,9 +16,9 @@ In order to complete this guide, you will need administrative powers in order to
 
 3. Open the IDE
 
-## 2. How to add ESP8266 library to the IDE
+## 2. Adding ESP8266 library to the IDE
 1. Click on File > Preferences
-* On OSX, Click on Arduino (at the top), then Preferences
+* On OS X, Click on Arduino (at the top), then Preferences
 2. Enter `http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/PereferencesWindow.png?raw=true">
@@ -28,7 +33,43 @@ In order to complete this guide, you will need administrative powers in order to
 
 ## 3. If there is extra plugin needed and where to download the plugin
 
-## 4. How to upload sketches to the module
+## 4. Configuring the upload settings
+1. Plug in the NodeMCU in to the PC
+
+### 4.1 Picking the board
+1. At the top, click on "Tools"
+2. Hover over "Board: ..."
+3. Select "NodeMCU 1.1 (ESP-12E Module)"
+
+### 4.2 Picking the upload speed
+1. At the top, click on "Tools"
+2. Hover over "Upload Speed: ..."
+3. Select "115200"
+
+### 4.3 Picking the CPU frequency
+1. At the top, click on "Tools"
+2. Hover over "CPU Frequency: ..."
+3. Select "80 MHz"
+
+### 4.4 Picking the flash size
+1. At the top, click on "Tools"
+2. Hover over "Flash Size: ..."
+3. Select "4M (3M SPIFFS)"
+
+### 4.5.1 Picking the port
+1. At the top, click on "Tools"
+2. Hover over "Port: ..."
+3. Select the module's port
+* On Windows,
+* On OS X, look for something with "wchusbserial", then proceed to step 5. If you get an error involving "wrong direction/command", try selecting the next port.
+
+<span style="color:#f90">Note:</span> If you're having trouble finding the right port, try unplugging the module, observing the list of avaiable port, then pluging in the module into the same port, and looking for any differences.
+
+<img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/UploadSettings.png?raw=true">
+
+When you open the tools menu, it should look like this, though the "port" may be different.
+
+## 5. Upload sketch to the module
 
 1. At the top left, click the arrow pointing right.
 
