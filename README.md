@@ -6,7 +6,7 @@ In order to complete this guide, you will need administrative powers in order to
 ## 0. Setting Up The Computer
 1. Install the USB drivers for the NodeMCU
 * For Windows...
-* For OS X, go to [here](https://github.com/Snappsu/Coding-Bootcamp/tree/master/drivers/OSX), then download and install the pkg and dmg. Security may stop drivers from loading, so open System Preferences, click "Security & Privacy", and allow the two drivers to run.
+* For OS X, go to [here](https://github.com/Snappsu/Coding-Bootcamp/tree/master/drivers/OSX), then download and install the pkg and dmg. The computer will have to restart at least once. Security may stop drivers from loading, so open System Preferences, click "Security & Privacy", and allow the two drivers to run.
 
 ## 1. Installing the Arduino IDE
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
@@ -14,14 +14,19 @@ In order to complete this guide, you will need administrative powers in order to
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/IDEDownload.png?raw=true">
 
+<span style="color:#f90">Note:</span> The "Sketchbook Location" is where your code will be saved. You can change it to wherever you want.
+
 3. Open the IDE
 
 ## 2. Adding ESP8266 library to the IDE
 1. Click on File > Preferences
+* On Windows...
 * On OS X, Click on Arduino (at the top), then Preferences
 2. Enter `http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/PereferencesWindow.png?raw=true">
+
+
 
 3. Tools > Boards > Board Manager
 4. Filter for `ESP8266`
@@ -29,9 +34,8 @@ In order to complete this guide, you will need administrative powers in order to
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/BoardManager.png?raw=true">
 
 5. Install the latest version of the library
-6. Click on Tools > Boards > NodeMCU 1.0...
 
-## 3. If there is extra plugin needed and where to download the plugin
+## 3. Adding extra plugins (where to download them)
 
 ## 4. Configuring the upload settings
 1. Plug in the NodeMCU in to the PC
@@ -69,13 +73,17 @@ In order to complete this guide, you will need administrative powers in order to
 
 When you open the tools menu, it should look like this, though the "port" may be different.
 
-## 5. Upload sketch to the module
+## 5. Uploading a sketch to the module
 
 1. At the top left, click the arrow pointing right.
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/UploadButton.png?raw=true">
 
-# Tutorials and Examples
+2. If everything is correct the bottom of IDE should look like this.
+
+<img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/ConsoleUpload.png?raw=true">
+
+# Examples
 
 ## Blank Arduino Sketch
 ```ino
