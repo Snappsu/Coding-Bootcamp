@@ -14,8 +14,6 @@ In order to complete this guide, you will need administrative powers in order to
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/IDEDownload.png?raw=true">
 
-<span style="color:#f90">Note:</span> The "Sketchbook Location" is where your code will be saved. You can change it to wherever you want.
-
 3. Open the IDE
 
 ## 2. Adding ESP8266 library to the IDE
@@ -26,7 +24,7 @@ In order to complete this guide, you will need administrative powers in order to
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/PereferencesWindow.png?raw=true">
 
-
+<span style="color:#f90">Note:</span> The "Sketchbook Location" is where your code will be saved. You can change it to wherever you want.
 
 3. Tools > Boards > Board Manager
 4. Filter for `ESP8266`
