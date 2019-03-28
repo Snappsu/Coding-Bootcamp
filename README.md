@@ -1,5 +1,5 @@
 # Table of Contents
-## [Getting Started](https://snappsu.github.io/Coding-Bootcamp/#Examples)
+## [Getting Started](https://snappsu.github.io/Coding-Bootcamp#Getting Started)
 
 0. Setting Up The Computer
 1. Installing the Arduino IDE
@@ -8,8 +8,8 @@
 4. Configuring the Upload Settings
 5. Uploading a sketch to the module
 
-## [Examples](https://snappsu.github.io/Coding-Bootcamp/#Examples)
-## [Turorials](https://snappsu.github.io/Coding-Bootcamp/#Tutorials)
+## [Examples](https://snappsu.github.io/Coding-Bootcamp#Examples)
+## [Turorials](https://snappsu.github.io/Coding-Bootcamp#Tutorials)
 
 # Getting Started
 <h2 style="color: #e22; text-align: center;">WARNING:</h2>
