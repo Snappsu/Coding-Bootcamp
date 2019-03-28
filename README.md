@@ -8,8 +8,11 @@
 4. Configuring the Upload Settings
 5. Uploading a sketch to the module
 
-## Examples
-## Turorials
+## Samples
+
+1. Blank Sketch
+2. Blinking Light
+3. WiFi Access Point
 
 # Getting Started
 <h2 style="color: #e22; text-align: center;">WARNING:</h2>
@@ -93,7 +96,7 @@ When you open the tools menu, it should look like this, though the "port" may be
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/ConsoleUpload.png?raw=true">
 
-# Examples
+# Samples
 
 ## Blank Arduino Sketch
 ```ino
