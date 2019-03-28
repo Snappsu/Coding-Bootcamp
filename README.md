@@ -45,7 +45,7 @@ In order to complete this guide, you will need administrative powers in order to
 
 5. Install the latest version of the library
 
-## 3. Adding Extra Plugins (and Where to Download tThem)
+## 3. Adding Extra Plugins (and Where to Download Them)
 
 ## 4. Configuring the Upload Settings
 1. Plug in the NodeMCU in to the PC
