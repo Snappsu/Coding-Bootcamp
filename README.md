@@ -1,5 +1,5 @@
 # Table of Contents
-## [Getting Started](https://snappsu.github.io/Coding-Bootcamp#Getting Started)
+## [Getting Started](https://snappsu.github.io/Coding-Bootcamp#Getting%20Started)
 
 0. Setting Up The Computer
 1. Installing the Arduino IDE
