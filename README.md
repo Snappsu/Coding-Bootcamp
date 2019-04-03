@@ -80,7 +80,7 @@ In order to complete this guide, you will need administrative powers in order to
 * On Windows,
 * On OS X, look for something with "wchusbserial", then proceed to step 5. If you get an error involving "wrong direction/command", try selecting the next port.
 
-<span style="color:#f90">Note:</span> If you're having trouble finding the right port, try unplugging the module, observing the list of avaiable port, then pluging in the module into the same port, and looking for any differences.
+<span style="color:#f90">Note:</span> If you're having trouble finding the right port, try unplugging the module, observing the list of avaiable ports, then pluging in the module into the same port, and looking for any differences.
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/UploadSettings.png?raw=true">
 
