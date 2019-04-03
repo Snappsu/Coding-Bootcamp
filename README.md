@@ -25,7 +25,8 @@ In order to complete this guide, you will need administrative powers in order to
 
 ## 1. Installing the Arduino IDE
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
-2. Download the IDE
+2. Download and install the IDE
+* On Windows, get the ZIP file download to avoid admin checks
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/IDEDownload.png?raw=true">
 
@@ -33,8 +34,8 @@ In order to complete this guide, you will need administrative powers in order to
 
 ## 2. Adding ESP8266 Library to the IDE
 1. Click on File > Preferences
-* On Windows...
-* On OS X, Click on Arduino (at the top), then Preferences
+* On Windows, click on 'File' (at the top of the window), then 'Preferences'
+* On OS X, click on 'Arduino' (at the top), then 'Preferences'
 2. Enter `http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/PereferencesWindow.png?raw=true">
@@ -77,7 +78,7 @@ In order to complete this guide, you will need administrative powers in order to
 1. At the top, click on "Tools"
 2. Hover over "Port: ..."
 3. Select the module's port
-* On Windows,
+* On Windows, look for something called "COMX" where "X".
 * On OS X, look for something with "wchusbserial", then proceed to step 5. If you get an error involving "wrong direction/command", try selecting the next port.
 
 <span style="color:#f90">Note:</span> If you're having trouble finding the right port, try unplugging the module, observing the list of avaiable ports, then pluging in the module into the same port, and looking for any differences.
