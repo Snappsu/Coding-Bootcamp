@@ -24,9 +24,9 @@ In order to complete this guide, you will need administrative powers in order to
 * For OS X, I have the files hosted [here](https://github.com/Snappsu/Coding-Bootcamp/tree/master/drivers/OSX), then download and install the pkg and dmg. The computer will have to restart at least once. Security may stop drivers from loading, so open System Preferences, click "Security & Privacy", and allow the two drivers to run.
 
 ## 1. Installing the Arduino IDE
-1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
+1. Go to [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
 2. Download and install the IDE
-* On Windows, get the ZIP file download to avoid admin checks
+* On Windows, get the ZIP file download to avoid having to enter an admin password
 
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/IDEDownload.png?raw=true">
 
